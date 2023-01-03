@@ -40,4 +40,4 @@ vignettes/*.pdf
 
 
 # test script
-test_ball.R
+test/
