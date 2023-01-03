@@ -329,18 +329,3 @@ test_plot_2021
 
 # convert to temp image
 
-
-test_gt_ba + test_plot_2020 + test_plot_2021 +
-  plot_layout(
-    ncol = 3,
-    widths = c(2, 1, 1),
-    guides = 'collect'
-  ) +
-  plot_annotation(
-    title = "JS ESTIMATES",
-    subtitle = "2020 and 2021 MLB BA",
-    theme = theme(
-      plot.title = element_text(hjust = 0.5),
-      plot.subtitle = element_text(hjust = 0.5)
-    )
-  )
